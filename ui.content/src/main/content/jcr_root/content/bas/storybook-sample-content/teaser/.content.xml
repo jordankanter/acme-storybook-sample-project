@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-05-04T14:16:52.357-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/bas/settings/wcm/templates/core-component-sample-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="teaser"
+        sling:resourceType="bas/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="bas/components/container">
+            <container
+                jcr:lastModified="{Date}2020-04-29T14:38:31.951-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="bas/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2020-05-04T14:13:12.707-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T14:14:33.910-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="teaser with title description"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <teaser
+                    jcr:created="{Date}2020-05-04T14:13:20.701-06:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>Teaser Description&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2020-05-04T14:14:27.239-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Teaser Title"
+                    sling:resourceType="bas/components/teaser"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    textIsRich="true"
+                    titleFromPage="false"/>
+                <title_698075587
+                    jcr:created="{Date}2020-05-04T14:14:49.463-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T14:14:59.094-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="teaser with image title description"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <teaser_copy
+                    jcr:created="{Date}2020-05-04T14:13:20.701-06:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>Teaser Description&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2020-05-04T14:15:27.894-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Teaser Title"
+                    sling:resourceType="bas/components/teaser"
+                    actionsEnabled="false"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                    textIsRich="true"
+                    titleFromPage="false"/>
+                <title_698075587_copy
+                    jcr:created="{Date}2020-05-04T14:14:49.463-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T14:16:22.345-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="teaser with call to action image title description"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <teaser_copy_copy
+                    jcr:created="{Date}2020-05-04T14:13:20.701-06:00"
+                    jcr:createdBy="admin"
+                    jcr:description="&lt;p>Teaser Description&lt;/p>&#xd;&#xa;"
+                    jcr:lastModified="{Date}2020-05-04T14:16:52.355-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Teaser Title"
+                    sling:resourceType="bas/components/teaser"
+                    actionsEnabled="true"
+                    descriptionFromPage="false"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                    textIsRich="true"
+                    titleFromPage="false">
+                    <actions jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            link="/content/bas/storybook-sample-content"
+                            text="Call to Action"/>
+                    </actions>
+                </teaser_copy_copy>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

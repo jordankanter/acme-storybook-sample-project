@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-05-04T17:02:28.153-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/bas/settings/wcm/templates/core-component-sample-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="container"
+        sling:resourceType="bas/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="bas/components/container">
+            <container
+                jcr:lastModified="{Date}2020-04-29T14:38:31.951-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="bas/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2020-05-04T14:33:20.045-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T14:33:26.120-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="container"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <container
+                    jcr:created="{Date}2020-05-04T14:33:30.501-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T14:33:30.501-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="bas/components/container">
+                    <title
+                        jcr:created="{Date}2020-05-04T17:01:54.877-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-05-04T17:02:05.499-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Title Component"
+                        sling:resourceType="bas/components/title"
+                        type="h4"/>
+                    <text
+                        jcr:created="{Date}2020-05-04T17:02:09.250-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-05-04T17:02:28.151-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="bas/components/text"
+                        text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

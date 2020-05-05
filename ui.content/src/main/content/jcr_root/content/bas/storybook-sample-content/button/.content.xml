@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-04-29T14:40:53.470-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/bas/settings/wcm/templates/core-component-sample-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="button"
+        sling:resourceType="bas/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="bas/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="bas/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2020-04-29T13:33:55.472-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-29T13:39:33.311-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="anchor element no icon"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <button
+                    jcr:created="{Date}2020-04-28T12:58:44.909-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-28T12:59:03.013-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Read More"
+                    sling:resourceType="bas/components/button"
+                    link="#"/>
+                <title_1763835027
+                    jcr:created="{Date}2020-04-29T13:34:21.151-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-29T13:40:07.349-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="anchor element with icon"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <button_650426694
+                    jcr:created="{Date}2020-04-28T13:39:50.547-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-28T13:40:16.393-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Read More"
+                    sling:resourceType="bas/components/button"
+                    icon="facebook"
+                    link="#"/>
+                <title_1110822352
+                    jcr:created="{Date}2020-04-29T13:34:45.057-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-29T13:40:19.323-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="button element no icon"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <button_353994383
+                    jcr:created="{Date}2020-04-28T13:31:45.105-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-28T13:32:00.239-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Read More"
+                    sling:resourceType="bas/components/button"/>
+                <title_1715311592
+                    jcr:created="{Date}2020-04-29T13:35:00.490-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-29T13:40:34.191-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="button element with icon"
+                    sling:resourceType="bas/components/title"
+                    type="h1"/>
+                <button_420021471
+                    jcr:created="{Date}2020-04-28T13:32:04.659-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-04-28T13:32:27.358-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Read More"
+                    sling:resourceType="bas/components/button"
+                    icon="facebook"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

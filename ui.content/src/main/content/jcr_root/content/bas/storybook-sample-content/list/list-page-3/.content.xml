@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/bas"
+        cq:lastModified="{Date}2020-04-30T14:59:31.954-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/bas/settings/wcm/templates/core-component-sample-page"
+        jcr:description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="List Page 3"
+        sling:resourceType="bas/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="bas/components/container">
+            <container
+                jcr:lastModified="{Date}2020-04-29T14:38:31.951-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="bas/components/container"
+                layout="responsiveGrid"/>
+        </root>
+    </jcr:content>
+</jcr:root>

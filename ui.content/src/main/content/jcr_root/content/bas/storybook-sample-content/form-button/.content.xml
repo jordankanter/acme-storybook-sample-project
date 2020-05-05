@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-05-04T17:21:54.219-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/bas/settings/wcm/templates/core-component-sample-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="form button"
+        sling:resourceType="bas/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="bas/components/container">
+            <container
+                jcr:lastModified="{Date}2020-04-29T14:38:31.951-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="bas/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2020-05-04T17:21:39.323-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T17:21:39.323-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="bas/components/title"/>
+                <container
+                    jcr:created="{Date}2020-05-04T17:21:46.291-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-05-04T17:21:46.291-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="bas/components/form/container"
+                    action="/content/usergenerated/bas/storybook-sample-content/form-button/cq-gen1588634506292/"
+                    actionType="foundation/components/form/actions/store">
+                    <button
+                        jcr:created="{Date}2020-05-04T17:21:54.217-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-05-04T17:21:54.217-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="bas/components/form/button"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
